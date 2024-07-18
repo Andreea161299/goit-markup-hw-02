@@ -1,91 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Homework 1</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+      <div class="logo">
+        <a href="./index.html" class="logo-text"
+          >WEB <span class="studio-link">STUDIO</span></a
+        >
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a class="menu-link" href="./index.html">Studio</a></li>
+          <li><a class="menu-link" href="#">About</a></li>
+          <li><a class="menu-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <address class="contact-info">
+        <ul>
+          <li>
+            <a class="contact-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-link" href="tel:+1234567890">+1234567890</a>
+          </li>
+        </ul>
+      </address>
     </header>
+    <!-- First Section -->
     <main>
-        <!-- Section 1 -->
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
-        </section>
-        <!-- Section 2 -->
-        <section>
-            
-            <hr />
-            <h2>Strength</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- Section 3 - Our Team -->
-        <section class="team">
-            <hr />
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="./imageshw1/MarkGuerrero.jpg" alt="Mark Guerrero Product Designer" width="264" height="260" />
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./imageshw1/TomFod.jpg" alt="Tom Ford Frontend Developer" width="264" height="260"/>
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./imageshw1/CamilaGarcia.jpg" alt="Camila Garcia Marketing" width="264" height="260" />
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./imageshw1/DanielWilson.jpg" alt="Daniel Wilson UI Designer" width="264" height="260" />
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
+      <section class="first-section">
+        <h1 class="first-section-title">
+          Effective Solutions for Your Business
+        </h1>
+        <button class="first-section-button">Order Service</button>
+      </section>
+
+      <!-- Second Section -->
+      <section class="second-section">
+        <h2 class="second-section-title">Our Services</h2>
+        <ul>
+          <li>
+            <h3 class="service-title">Strategy</h3>
+            <p class="service-description">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 class="service-title">Punctuality</h3>
+            <p class="service-description">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li>
+            <h3 class="service-title">Diligence</h3>
+            <p class="service-description">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="service-title">Technologies</h3>
+            <p class="service-description">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Third Section -->
+      <section class="third-section">
+        <h2 class="third-section-title">Our Team</h2>
+        <ul>
+          <li>
+            <img
+              class="gallery-image"
+              src="./imageshw/MarkGuerrero.jpg"
+              alt="Mark Guerrero Product Designer"
+              width="264"
+              height="260"
+            />
+            <h3 class="project-title">Mark Guerrero</h3>
+            <p class="project-description">Product Designer</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./imageshw/TomFod.jpg"
+              alt="Tom Ford Frontend Developer"
+              width="264"
+              height="260"
+            />
+            <h3 class="project-title">Tom Ford</h3>
+            <p class="project-description">Frontend Developer</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./imageshw/CamilaGarcia.jpg"
+              alt="Camila Garcia Marketing"
+              width="264"
+              height="260"
+            />
+            <h3 class="project-title">Camila Garcia</h3>
+            <p class="project-description">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./imageshw/DanielWilson.jpg"
+              alt="Daniel Wilson UI Designer"
+              width="264"
+              height="260"
+            />
+            <h3 class="project-title">Daniel Wilson</h3>
+            <p class="project-description">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Fourth Section -->
+      <section class="fourth-section">
+        <h2 class="fourth-section-title">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              class="gallery-image"
+              src="./images/BankingApp.jpg"
+              alt="Banking App photo"
+              width="360"
+              height="300"
+            />
+            <h3 class="gallery-title">Banking App</h3>
+            <p class="gallery-description">App</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./images/CashlessPayment.jpg"
+              alt="Cashless Payment photo"
+              width="360"
+              height="300"
+            />
+            <h3 class="gallery-title">Cashless Payment</h3>
+            <p class="gallery-description">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./images/MeditationApp.jpg"
+              alt="Meditation App photo"
+              width="360"
+              height="300"
+            />
+            <h3 class="gallery-title">Meditation App</h3>
+            <p class="gallery-description">App</p>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img
+              class="gallery-image"
+              src="./images/TaxiService.jpg"
+              alt="Taxi Service photo"
+              width="360"
+              height="300"
+            />
+            <h3 class="gallery-title">Taxi Service</h3>
+            <p class="gallery-description">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./images/ScreenIllustrations.jpg"
+              alt="Screen Illustrations photo"
+              width="360"
+              height="300"
+            />
+            <h3 class="gallery-title">Screen Illustrations</h3>
+            <p class="gallery-description">Design</p>
+          </li>
+
+          <li>
+            <img
+              class="gallery-image"
+              src="./images/OnlineCourses.jpg"
+              alt="Online Courses photo"
+              width="360"
+              height="300"
+            />
+            <h3 class="gallery-title">Online Courses</h3>
+            <p class="gallery-description">Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <!-- sec -->
+    <footer class="footer-section">
+      <div class="logo">
+        <a href="./index.html" class="logo-text"
+          >WEB <span class="studio-link-footer">STUDIO</span></a
+        >
+      </div>
+
+      <p class="footer-paragraph">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
