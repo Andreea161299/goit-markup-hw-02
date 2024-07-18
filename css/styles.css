@@ -27,7 +27,14 @@ body {
 }
 
 .logo-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color:var(--blue-primary);
+    text-transform: uppercase;
+
 }
 
 .studio-link {
@@ -136,13 +143,31 @@ body {
     padding: 20px;
 }
 
+.third-section-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  var(--navy-text);
+}
+
 /* Fourth section styles */
 .fourth-section {
     padding: 20px;
 }
 
-.gallery-image {
-    width: 360px;
+.second-section-image {
+    background-color: var(--white-text);
+}
+
+.fourth-section-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  var(--navy-text);
 }
 
 /* Footer styles */
